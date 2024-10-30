@@ -1,1 +1,19 @@
+*{box-sizing: border-box;}
 
+body{
+  background-color:
+  font: ;
+}
+
+.banner{
+  background-color: #343e8c;
+  color: #95a5f5;
+  font-family: Monaco, Lucida Console, Verdana;
+  text-align: center;
+  padding: 15px;
+  width: 80px;
+  margin: 20px;
+  border: 4px dashed #1b286b;
+  border-radius: 4px;
+  
+}
