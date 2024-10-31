@@ -19,6 +19,12 @@ body{
   border-radius: 10px;
 }
 
+#aboutme{
+  background-color: #22457d;
+  color: #e6c1dc;
+}
+
+
 a:link{
   color: #95a5f5;
 }
