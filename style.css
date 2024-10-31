@@ -23,6 +23,10 @@ a:link{
   color: #95a5f5;
 }
 
+a:visited{
+  color: #95a5f5;
+}
+
 a:hover{
   color: #d7e1fc;
 }
