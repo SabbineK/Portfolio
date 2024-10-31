@@ -11,7 +11,8 @@ body{
   background-color: #343e8c;
   color: #95a5f5;
   font-family: Monaco, Lucida Console, Verdana;
-  padding: 15px;
+  font-size: 30px;
+  padding: 30px;
   width: 90%;
   margin: 20px;
   border: 8px dashed #1b286b;
@@ -19,6 +20,14 @@ body{
   
 }
 
-a{
-  
+a:link{
+  color: #95a5f5;
+}
+
+a:active{
+  color: #d2b6f0;
+}
+
+a:hover{
+  color: #d7e1fc;
 }
