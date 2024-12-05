@@ -17,6 +17,7 @@ body{
   margin: 20px;
   border: 8px dashed #1b286b;
   border-radius: 10px;
+  text-align: center;
 }
 
 #aboutme{
