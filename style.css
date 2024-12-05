@@ -20,6 +20,10 @@ body{
   text-align: center;
 }
 
+h1{
+  text-align: center;
+}
+
 #aboutme{
   background-color: #5860a1;
   color: #e6c1dc;
