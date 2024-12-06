@@ -1,54 +1,50 @@
 *{box-sizing: border-box;}
 
 body{
-  font-family: Monaco, Lucida Console, Verdana;
-  background-color: #BFD7B5;
-  padding-top: 100px;
-  padding-top: 100px;
-  overflow-x: hidden;
+height: 100%;
+width: 100%;
+background-color: #6582bf;
+font-family: Monaco, Lucida Console, Verdana;
 }
 
-main, p{
-  padding: 10px;
+.banner{
+background-color: #343e8c;
+color: #95a5f5;
+font-family: Monaco, Lucida Console, Verdana;
+font-size: 30px;
+padding: 30px;
+width: 90%;
+margin: 20px;
+border: 8px dashed #1b286b;
+border-radius: 10px;
+text-align: center;
 }
 
 h1{
-  padding: 10px;
-  margin-left: 70px;
-  color: #E7EFC5;
-  font-size: 30px;
+  text-align: center;
 }
 
-h2{
-  font-size: 30px;
+#aboutme{
+background-color: #5860a1;
+color: #e6c1dc;
+font-family: Monaco, Lucida Console, Verdana;
+padding: 30px;
+width: 35%;
+margin: 30px;
+position: fixed;
+top: 20;
+font-size: 15px;
+border: 4px solid #444a85;
 }
 
-header{
-  background-color: #86a880;
-  display: flex;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 100px;
+
+a:link{
+color: #95a5f5;
 }
 
-.philosophy{
-  display: flex;
-  width: 35%;
+a:visited{
+color: #95a5f5;
 }
 
-.goal{
-     
-}
-
-footer{
-  background-color: #31423c;
-  color: white;
-  width: 100%;
-  display: flex;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
-}
+a:hover{
+color: #d7e1fc;
