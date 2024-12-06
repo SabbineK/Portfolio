@@ -1,51 +1,54 @@
 *{box-sizing: border-box;}
 
 body{
-  height: 100%;
-  width: 100%;
-  background-color: #6582bf;
   font-family: Monaco, Lucida Console, Verdana;
+  background-color: #BFD7B5;
+  padding-top: 100px;
+  padding-top: 100px;
+  overflow-x: hidden;
 }
 
-.banner{
-  background-color: #343e8c;
-  color: #95a5f5;
-  font-family: Monaco, Lucida Console, Verdana;
-  font-size: 30px;
-  padding: 30px;
-  width: 90%;
-  margin: 20px;
-  border: 8px dashed #1b286b;
-  border-radius: 10px;
-  text-align: center;
+main, p{
+  padding: 10px;
 }
 
 h1{
-  text-align: center;
+  padding: 10px;
+  margin-left: 70px;
+  color: #E7EFC5;
+  font-size: 30px;
 }
 
-#aboutme{
-  background-color: #5860a1;
-  color: #e6c1dc;
-  font-family: Monaco, Lucida Console, Verdana;
-  padding: 30px;
-  width: 35%;
-  margin: 30px;
+h2{
+  font-size: 30px;
+}
+
+header{
+  background-color: #86a880;
+  display: flex;
   position: fixed;
-  top: 20;
-  font-size: 15px;
-  border: 4px solid #444a85;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100px;
 }
 
-
-a:link{
-  color: #95a5f5;
+.philosophy{
+  display: flex;
+  width: 35%;
 }
 
-a:visited{
-  color: #95a5f5;
+.goal{
+     
 }
 
-a:hover{
-  color: #d7e1fc;
+footer{
+  background-color: #31423c;
+  color: white;
+  width: 100%;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
 }
